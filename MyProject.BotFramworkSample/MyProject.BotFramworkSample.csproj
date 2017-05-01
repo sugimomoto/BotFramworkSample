@@ -114,6 +114,8 @@
     <Compile Include="Controllers\MessagesController.cs" />
     <Compile Include="Dialogs\MessageCountDialog.cs" />
     <Compile Include="Dialogs\MessageEchoDialog.cs" />
+    <Compile Include="Dialogs\SandwichRequestDialog.cs" />
+    <Compile Include="FormFlow\SandWichFormFlow.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -129,6 +131,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

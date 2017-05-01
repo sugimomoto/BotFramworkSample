@@ -18,7 +18,7 @@ namespace MyProject.BotFramworkSample
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.MessageCountDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.SandwichRequestDialog());
             }
 
             return Request.CreateResponse(HttpStatusCode.OK);
